@@ -8,7 +8,7 @@ The application is built with the following stack:
 
 - **Spring Boot** for the backend
 - **JPA/Hibernate** for ORM and database interaction
-- **H2DB** for the database on memory (Not Mongo in this version)
+- **H2DB** for the database on memory
 - **Spring Data JPA** for repository management
 
 ## Features
