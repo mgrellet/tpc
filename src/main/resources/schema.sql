@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS employees(
+    dni  VARCHAR(10) PRIMARY KEY,
+    has_benefit BOOLEAN
+);
+
+CREATE TABLE IF NOT EXISTS employees(
+    id   BIGINT AUTO_INCREMENT PRIMARY KEY,
+    dni  VARCHAR(10),
+    loan DOUBLE
+);
